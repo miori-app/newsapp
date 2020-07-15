@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB0D5B824BEB99B007CD87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0D5B724BEB99B007CD87F /* AppDelegate.swift */; };
+		3DB0D5BA24BEB99B007CD87F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0D5B924BEB99B007CD87F /* SceneDelegate.swift */; };
+		3DB0D5BC24BEB99B007CD87F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0D5BB24BEB99B007CD87F /* ViewController.swift */; };
+		3DB0D5BF24BEB99B007CD87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0D5BD24BEB99B007CD87F /* Main.storyboard */; };
+		3DB0D5C124BEB99C007CD87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0D5C024BEB99C007CD87F /* Assets.xcassets */; };
+		3DB0D5C424BEB99C007CD87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0D5C224BEB99C007CD87F /* LaunchScreen.storyboard */; };
+		3DB0D5CF24BEB99C007CD87F /* mioriTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0D5CE24BEB99C007CD87F /* mioriTableTests.swift */; };
+		3DB0D5DA24BEB99C007CD87F /* mioriTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0D5D924BEB99C007CD87F /* mioriTableUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB0D5CB24BEB99C007CD87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB0D5AC24BEB99B007CD87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB0D5B324BEB99B007CD87F;
+			remoteInfo = mioriTable;
+		};
+		3DB0D5D624BEB99C007CD87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB0D5AC24BEB99B007CD87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB0D5B324BEB99B007CD87F;
+			remoteInfo = mioriTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DB0D5B424BEB99B007CD87F /* mioriTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mioriTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB0D5B724BEB99B007CD87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DB0D5B924BEB99B007CD87F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DB0D5BB24BEB99B007CD87F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DB0D5BE24BEB99B007CD87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DB0D5C024BEB99C007CD87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DB0D5C324BEB99C007CD87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DB0D5C524BEB99C007CD87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB0D5CA24BEB99C007CD87F /* mioriTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mioriTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB0D5CE24BEB99C007CD87F /* mioriTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mioriTableTests.swift; sourceTree = "<group>"; };
+		3DB0D5D024BEB99C007CD87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB0D5D524BEB99C007CD87F /* mioriTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mioriTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB0D5D924BEB99C007CD87F /* mioriTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mioriTableUITests.swift; sourceTree = "<group>"; };
+		3DB0D5DB24BEB99C007CD87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB0D5B124BEB99B007CD87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0D5C724BEB99C007CD87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0D5D224BEB99C007CD87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DB0D5AB24BEB99B007CD87F = {
+			isa = PBXGroup;
+			children = (
+				3DB0D5B624BEB99B007CD87F /* mioriTable */,
+				3DB0D5CD24BEB99C007CD87F /* mioriTableTests */,
+				3DB0D5D824BEB99C007CD87F /* mioriTableUITests */,
+				3DB0D5B524BEB99B007CD87F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB0D5B524BEB99B007CD87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0D5B424BEB99B007CD87F /* mioriTable.app */,
+				3DB0D5CA24BEB99C007CD87F /* mioriTableTests.xctest */,
+				3DB0D5D524BEB99C007CD87F /* mioriTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB0D5B624BEB99B007CD87F /* mioriTable */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0D5B724BEB99B007CD87F /* AppDelegate.swift */,
+				3DB0D5B924BEB99B007CD87F /* SceneDelegate.swift */,
+				3DB0D5BB24BEB99B007CD87F /* ViewController.swift */,
+				3DB0D5BD24BEB99B007CD87F /* Main.storyboard */,
+				3DB0D5C024BEB99C007CD87F /* Assets.xcassets */,
+				3DB0D5C224BEB99C007CD87F /* LaunchScreen.storyboard */,
+				3DB0D5C524BEB99C007CD87F /* Info.plist */,
+			);
+			path = mioriTable;
+			sourceTree = "<group>";
+		};
+		3DB0D5CD24BEB99C007CD87F /* mioriTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0D5CE24BEB99C007CD87F /* mioriTableTests.swift */,
+				3DB0D5D024BEB99C007CD87F /* Info.plist */,
+			);
+			path = mioriTableTests;
+			sourceTree = "<group>";
+		};
+		3DB0D5D824BEB99C007CD87F /* mioriTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0D5D924BEB99C007CD87F /* mioriTableUITests.swift */,
+				3DB0D5DB24BEB99C007CD87F /* Info.plist */,
+			);
+			path = mioriTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB0D5B324BEB99B007CD87F /* mioriTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB0D5DE24BEB99C007CD87F /* Build configuration list for PBXNativeTarget "mioriTable" */;
+			buildPhases = (
+				3DB0D5B024BEB99B007CD87F /* Sources */,
+				3DB0D5B124BEB99B007CD87F /* Frameworks */,
+				3DB0D5B224BEB99B007CD87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mioriTable;
+			productName = mioriTable;
+			productReference = 3DB0D5B424BEB99B007CD87F /* mioriTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DB0D5C924BEB99C007CD87F /* mioriTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB0D5E124BEB99C007CD87F /* Build configuration list for PBXNativeTarget "mioriTableTests" */;
+			buildPhases = (
+				3DB0D5C624BEB99C007CD87F /* Sources */,
+				3DB0D5C724BEB99C007CD87F /* Frameworks */,
+				3DB0D5C824BEB99C007CD87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB0D5CC24BEB99C007CD87F /* PBXTargetDependency */,
+			);
+			name = mioriTableTests;
+			productName = mioriTableTests;
+			productReference = 3DB0D5CA24BEB99C007CD87F /* mioriTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DB0D5D424BEB99C007CD87F /* mioriTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB0D5E424BEB99C007CD87F /* Build configuration list for PBXNativeTarget "mioriTableUITests" */;
+			buildPhases = (
+				3DB0D5D124BEB99C007CD87F /* Sources */,
+				3DB0D5D224BEB99C007CD87F /* Frameworks */,
+				3DB0D5D324BEB99C007CD87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB0D5D724BEB99C007CD87F /* PBXTargetDependency */,
+			);
+			name = mioriTableUITests;
+			productName = mioriTableUITests;
+			productReference = 3DB0D5D524BEB99C007CD87F /* mioriTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB0D5AC24BEB99B007CD87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = miori;
+				TargetAttributes = {
+					3DB0D5B324BEB99B007CD87F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					3DB0D5C924BEB99C007CD87F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3DB0D5B324BEB99B007CD87F;
+					};
+					3DB0D5D424BEB99C007CD87F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3DB0D5B324BEB99B007CD87F;
+					};
+				};
+			};
+			buildConfigurationList = 3DB0D5AF24BEB99B007CD87F /* Build configuration list for PBXProject "mioriTable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB0D5AB24BEB99B007CD87F;
+			productRefGroup = 3DB0D5B524BEB99B007CD87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB0D5B324BEB99B007CD87F /* mioriTable */,
+				3DB0D5C924BEB99C007CD87F /* mioriTableTests */,
+				3DB0D5D424BEB99C007CD87F /* mioriTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB0D5B224BEB99B007CD87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB0D5C424BEB99C007CD87F /* LaunchScreen.storyboard in Resources */,
+				3DB0D5C124BEB99C007CD87F /* Assets.xcassets in Resources */,
+				3DB0D5BF24BEB99B007CD87F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0D5C824BEB99C007CD87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0D5D324BEB99C007CD87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB0D5B024BEB99B007CD87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB0D5BC24BEB99B007CD87F /* ViewController.swift in Sources */,
+				3DB0D5B824BEB99B007CD87F /* AppDelegate.swift in Sources */,
+				3DB0D5BA24BEB99B007CD87F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0D5C624BEB99C007CD87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB0D5CF24BEB99C007CD87F /* mioriTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0D5D124BEB99C007CD87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB0D5DA24BEB99C007CD87F /* mioriTableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DB0D5CC24BEB99C007CD87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB0D5B324BEB99B007CD87F /* mioriTable */;
+			targetProxy = 3DB0D5CB24BEB99C007CD87F /* PBXContainerItemProxy */;
+		};
+		3DB0D5D724BEB99C007CD87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB0D5B324BEB99B007CD87F /* mioriTable */;
+			targetProxy = 3DB0D5D624BEB99C007CD87F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DB0D5BD24BEB99B007CD87F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB0D5BE24BEB99B007CD87F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DB0D5C224BEB99C007CD87F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB0D5C324BEB99C007CD87F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB0D5DC24BEB99C007CD87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DB0D5DD24BEB99C007CD87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB0D5DF24BEB99C007CD87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mioriTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.mioriTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DB0D5E024BEB99C007CD87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mioriTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.mioriTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DB0D5E224BEB99C007CD87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mioriTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.mioriTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mioriTable.app/mioriTable";
+			};
+			name = Debug;
+		};
+		3DB0D5E324BEB99C007CD87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mioriTableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.mioriTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mioriTable.app/mioriTable";
+			};
+			name = Release;
+		};
+		3DB0D5E524BEB99C007CD87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mioriTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.mioriTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mioriTable;
+			};
+			name = Debug;
+		};
+		3DB0D5E624BEB99C007CD87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mioriTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miori.dev-ios.mioriTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mioriTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB0D5AF24BEB99B007CD87F /* Build configuration list for PBXProject "mioriTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB0D5DC24BEB99C007CD87F /* Debug */,
+				3DB0D5DD24BEB99C007CD87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB0D5DE24BEB99C007CD87F /* Build configuration list for PBXNativeTarget "mioriTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB0D5DF24BEB99C007CD87F /* Debug */,
+				3DB0D5E024BEB99C007CD87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB0D5E124BEB99C007CD87F /* Build configuration list for PBXNativeTarget "mioriTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB0D5E224BEB99C007CD87F /* Debug */,
+				3DB0D5E324BEB99C007CD87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB0D5E424BEB99C007CD87F /* Build configuration list for PBXNativeTarget "mioriTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB0D5E524BEB99C007CD87F /* Debug */,
+				3DB0D5E624BEB99C007CD87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB0D5AC24BEB99B007CD87F /* Project object */;
+}
