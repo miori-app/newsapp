@@ -22,10 +22,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //data 무엇
         
-        //임의의 셀 만들기
-        let cell = UITableViewCell.init(style: .default, reuseIdentifier: "TableCellType1")
+        //임의의 셀 만들기 (방법1)
+        //let cell = UITableViewCell.init(style: .default, reuseIdentifier: "TableCellType1")
+        let cell = tableViewMain.dequeueReusableCell(withIdentifier: "Type1" , for: indexPath) as! Type1
+        //반환형이 UITableViewCell
+        /*
+         as 친자확인 용도
+         as? 나 맞아?
+         as! 나 맞아!
+         */
+        cell.myText.text = "\(indexPath.row)"
         
-        cell.textLabel?.text = "\(indexPath.row)"
+        
+        //cell.textLabel?.text = "\(indexPath.row)"
         
         return cell
     }
