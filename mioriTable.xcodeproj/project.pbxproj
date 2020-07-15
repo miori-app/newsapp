@@ -15,6 +15,7 @@
 		3DB0D5C424BEB99C007CD87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0D5C224BEB99C007CD87F /* LaunchScreen.storyboard */; };
 		3DB0D5CF24BEB99C007CD87F /* mioriTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0D5CE24BEB99C007CD87F /* mioriTableTests.swift */; };
 		3DB0D5DA24BEB99C007CD87F /* mioriTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0D5D924BEB99C007CD87F /* mioriTableUITests.swift */; };
+		3DB0D5EA24BECF6B007CD87F /* Type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB0D5E924BECF6B007CD87F /* Type1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3DB0D5D524BEB99C007CD87F /* mioriTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mioriTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB0D5D924BEB99C007CD87F /* mioriTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mioriTableUITests.swift; sourceTree = "<group>"; };
 		3DB0D5DB24BEB99C007CD87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB0D5E924BECF6B007CD87F /* Type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3DB0D5C024BEB99C007CD87F /* Assets.xcassets */,
 				3DB0D5C224BEB99C007CD87F /* LaunchScreen.storyboard */,
 				3DB0D5C524BEB99C007CD87F /* Info.plist */,
+				3DB0D5E924BECF6B007CD87F /* Type1.swift */,
 			);
 			path = mioriTable;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB0D5BC24BEB99B007CD87F /* ViewController.swift in Sources */,
+				3DB0D5EA24BECF6B007CD87F /* Type1.swift in Sources */,
 				3DB0D5B824BEB99B007CD87F /* AppDelegate.swift in Sources */,
 				3DB0D5BA24BEB99B007CD87F /* SceneDelegate.swift in Sources */,
 			);
