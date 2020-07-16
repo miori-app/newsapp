@@ -7,6 +7,11 @@
 //
 
 
+/* TableView 구성
+ 1. delegate
+ 2. storyboard (segue)
+ */
+
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
@@ -25,7 +30,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
      */
     func getNews(){
         let task = URLSession.shared.dataTask(with: URL(string: "your api")!) { (data, response, error) in
-            // input yout api in "your api" 
+            // input yout api in "your api"
             if let dataJson = data{
                 //print(dataJson)
                 
@@ -112,6 +117,38 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         print("\(indexPath.row)")
     }
     
+    //segue로 값 넘기기
+    /*
+     override?
+     controller,class 부모자식관계
+     부모가 메소드를 갖고있으면 자식도 그 메소드 사용가능
+     */
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let id = segue.identifier, "newsDetail" == id {
+            if let controller = segue.destination as? NewsDetailController {
+                
+                if let news = newsData {
+                    if let indexPath = tableViewMain.indexPathForSelectedRow {
+                        let row = news[indexPath.row]
+                        print("ok")
+                        if let r = row as? Dictionary<String, Any>{
+                            //정보가 dict형태라면
+                            if let imageUrl = r["urlToImage"] as? String{
+                                controller.imageUrl = imageUrl
+                            }
+                            if let desc = r["description"] as? String{
+                                controller.desc = desc
+                            }
+                            
+                            
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -131,4 +168,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
  1. 데이터 무엇인지
  2. 몇개인지
  3. click event
+ */
+
+
+//값 보내기 (제목클릭시 이미지랑 본문내용)
+/*
+ 화면 이동전에 값을 미리 던져놓고(이동전에)
  */
