@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--NewsApp-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mioriTable" customModuleProvider="target" sceneMemberID="viewController">
@@ -55,7 +55,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="vAu-4b-MXf"/>
+                    <navigationItem key="navigationItem" title="NewsApp" id="vAu-4b-MXf"/>
                     <connections>
                         <outlet property="TableViewMain" destination="5ok-wO-IkR" id="Amc-rn-mLV"/>
                         <outlet property="tableViewMain" destination="5ok-wO-IkR" id="5z6-p1-Fuf"/>
