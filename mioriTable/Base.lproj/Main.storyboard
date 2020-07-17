@@ -79,30 +79,34 @@
                                     <constraint firstAttribute="height" constant="150" id="zJ1-mc-UUq"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pts-GG-Gbd">
-                                <rect key="frame" x="20" y="290" width="374" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ooV-Lb-nFN">
+                                <rect key="frame" x="20" y="290" width="374" height="117"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="ngf-5O-jUO"/>
+                                    <constraint firstAttribute="height" constant="117" id="w85-jM-VF0"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="ZEx-oo-GP2" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Pts-GG-Gbd" secondAttribute="bottom" constant="16" id="6LD-xB-P8p"/>
                             <constraint firstItem="RJl-Hv-Ef7" firstAttribute="top" secondItem="ZEx-oo-GP2" secondAttribute="top" constant="34" id="Kou-ci-qEP"/>
-                            <constraint firstItem="Pts-GG-Gbd" firstAttribute="top" secondItem="RJl-Hv-Ef7" secondAttribute="bottom" constant="18" id="alq-dl-wg8"/>
-                            <constraint firstItem="Pts-GG-Gbd" firstAttribute="top" secondItem="RJl-Hv-Ef7" secondAttribute="bottom" constant="18" id="l3x-E1-7hn"/>
-                            <constraint firstItem="ZEx-oo-GP2" firstAttribute="trailing" secondItem="Pts-GG-Gbd" secondAttribute="trailing" constant="20" id="m3S-mK-WG3"/>
-                            <constraint firstItem="Pts-GG-Gbd" firstAttribute="leading" secondItem="ZEx-oo-GP2" secondAttribute="leading" constant="20" id="pct-jd-Sxn"/>
+                            <constraint firstItem="ooV-Lb-nFN" firstAttribute="top" secondItem="RJl-Hv-Ef7" secondAttribute="bottom" constant="18" id="ZjW-dr-MPD"/>
+                            <constraint firstItem="ooV-Lb-nFN" firstAttribute="leading" secondItem="ZEx-oo-GP2" secondAttribute="leading" constant="20" id="mQ1-2r-Riu"/>
                             <constraint firstItem="ZEx-oo-GP2" firstAttribute="trailing" secondItem="RJl-Hv-Ef7" secondAttribute="trailing" constant="20" id="rQD-S3-IXd"/>
                             <constraint firstItem="RJl-Hv-Ef7" firstAttribute="leading" secondItem="ZEx-oo-GP2" secondAttribute="leading" constant="20" id="uvB-6D-qpz"/>
+                            <constraint firstItem="ZEx-oo-GP2" firstAttribute="trailing" secondItem="ooV-Lb-nFN" secondAttribute="trailing" constant="20" id="yXm-gX-wya"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZEx-oo-GP2"/>
                     </view>
                     <navigationItem key="navigationItem" id="xAk-he-8bR"/>
                     <connections>
                         <outlet property="imageMain" destination="RJl-Hv-Ef7" id="sSY-uq-YHJ"/>
-                        <outlet property="labelMain" destination="Pts-GG-Gbd" id="ecz-Yu-wON"/>
+                        <outlet property="textViewMain" destination="ooV-Lb-nFN" id="Oyn-Fd-2Xq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hv1-9A-qib" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

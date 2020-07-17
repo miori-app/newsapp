@@ -11,8 +11,7 @@ import UIKit
 class NewsDetailController : UIViewController{
     
     @IBOutlet weak var imageMain: UIImageView!
-    @IBOutlet weak var labelMain: UILabel!
-    
+    @IBOutlet weak var textViewMain: UITextView!
     //1. json의 이미지 url
     //2. json의 description
     
@@ -36,10 +35,9 @@ class NewsDetailController : UIViewController{
             
         }
         
-        
         if let de = desc{
             //본문 가져와서 뿌려
-            self.labelMain.text = de
+            self.textViewMain.text = de
         }
     }
 }
