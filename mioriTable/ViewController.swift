@@ -29,7 +29,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
      * tableView 의  data matching 그리고 뿌리기(통보!!)
      */
     func getNews(){
-        let task = URLSession.shared.dataTask(with: URL(string: "http://newsapi.org/v2/top-headlines?country=kr&apiKey=e6331caedc2f4f7f87d5e3d035b8ca7e")!) { (data, response, error) in
+        let task = URLSession.shared.dataTask(with: URL(string: "your api")!) { (data, response, error) in
             // input yout api in "your api"
             if let dataJson = data{
                 //print(dataJson)
