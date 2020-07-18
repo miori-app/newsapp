@@ -7,5 +7,6 @@
 ## [URLSession dataTask]
 
 ## [Json Parsing]
+### - (Thread 관리)
 
 ## [Navigation Controller]
