@@ -9,7 +9,7 @@
 - async
 
 ## [Json Parsing]
-### - (Thread 관리)
+### - (Thread 관리, dispatch)
 
 ## [Navigation Controller]
 ### - Navigation Bar
