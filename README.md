@@ -15,5 +15,5 @@
 ### - Navigation Bar
 
 - 도전.
-alamofire 써보기<br>
-swiftyjson
+- alamofire 써보기<br>
+- swiftyjson
